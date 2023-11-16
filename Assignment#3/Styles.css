@@ -50,16 +50,19 @@ margin-bottom: 10px;
 .link3:hover{
     text-decoration: underline;
 }
-
 p {
 font-size: large;
 }
 p2 {
 font-size: small;
 }
-h3{
+h1{
     font-size:xx-large;
     margin-bottom: auto;
+}
+h3 {
+    margin-bottom: auto;
+    margin-top: auto;
 }
 p3{
     font-size: medium;
@@ -94,7 +97,7 @@ p3{
     justify-content: center;
     overflow:hidden;
 }   
- 
+
 nav {
     background-color: #333;
     text-align: center;
@@ -122,9 +125,6 @@ nav a:active {
     max-height: 36px;
 }
 
-
-
-
 .grid-Boxes {
     display: grid;
     grid-template-columns: repeat(2, 60%);
@@ -140,4 +140,9 @@ nav a:active {
     padding: 10px 5px;
     text-align: center;
     text-wrap:nowrap;
+}
+
+.Footer {
+    font-size: xx-small;
+    font-style: italic;
 }
