@@ -3,127 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navigation</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        @media screen and (max-width: 600px) {
-            nav a {
-                float: none;
-                width: 100%;
-                text-align: left;
-            }
-        }
-
-
-        .logo{
-            max-width:15px;
-        }
-
-        
-        .hero-banner {
-            width: 100%;
-            height: 400px;
-            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-            position: relative;
-            color: #000;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero-banner h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        @media screen and (max-width: 768px) {
-            .hero-banner {
-                height: 300px;
-            }
-
-            .hero-banner h1 {
-                font-size: 2em;
-            }
-        }
-        .hero-img{
-            max-width:250px;
-        }
-        .white{
-            color:white;
-            background-color: black;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-            grid-template-rows: repeat(2, 200px); /* Two rows with a fixed height of 200px */
-            gap: 20px; /* Gap between grid items */
-            max-width: 800px;
-            margin: 20px auto;
-        }
-
-        .grid-item {
-            background-color: #f0f0f0;
-            padding: 20px;
-            border: 1px solid #ccc;
-            text-align: center;
-        }
-    </style>
+    <title>Assignment 3</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
+    <nav>
+        <a href="#"><img src="images\logo.png" class="logo"></a>
+        <a href="#">Mac</a>
+        <a href="#">iPad</a>
+        <a href="#">iPhone</a>
+        <a href="#">Watch</a>
+        <a href="#">TV</a>
+        <a href="#">Music</a>
+        <a href="#">Support</a>
+    </nav>
 
-<nav>
-    <a href="#home"><img src="Images/Apple-Assg-Images/logo.png" class="logo"></a>
-    <a href="#home">Home</a>
-    <a href="#about">iMac</a>
-    <a href="#services">iPhone</a>
-    <a href="#contact">iPad</a>
-</nav>
-<div class="hero-banner">
-    <h1>iPhone 11</h1>
-    <img src="Images/Apple-Assg-Images/6.png" class="hero-img">
-</div>
-<div class="hero-banner white">
-    <h1>iPhone 11 Pro</h1>
-    <img src="Images/Apple-Assg-Images/5.png" class="hero-img" style="max-width:700px;">
-</div>
+    <div class="hero-banner">
+        <img src="images/12.webp" class="logoB">
+        <h1>iPhone 11</h1>
+        <p href="#" class="linkA">Shop Now ></p>
+        <img src="images/6.png">
+    </div>
+    <div class="hero-banner hero-banner-2">
+        <h1>iPhone 11 Pro</h1>
+        <p>Pro cameras. Pro display. Pro performance.</p>
+        <p2>From $24.95/mo. or $599 with trade-in.</p2>
+        <p href="#" class="linkB">Learn more > Buy ></p>
+        <img src="images/5.png" style="max-width:700px;">
+        <!--<img src="images/5.png" class="hero-img" style="max-width:700px;">-->
+    </div>
 
-<div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-</div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>Mac</h3>
+            <p3>Our most powerful pro lineup<br>ever. Ready for your best work<br>ever.</p3>
+            <p href="#" class="linkC">Learn more > Buy ></p>
+            <img src="images/1.png" style="max-height: 150px">
+        </div>
+        <div class="grid-item">
+            <h3>iPad</h3>
+            <p3>Like a computer. Unlike any<br>computer.</p3>
+            <p href="#" class="linkC">Learn more > Buy ></p>
+            <img src="images/2.png" style="max-height: 130px">
+        </div>
+        <div class="grid-item">
+            <h3>iPhone</h3>
+            <p3>Just the right amount of<br>everything.</p3>
+            <p href="#" class="linkC">Learn more > Buy ></p>
+            <img src="images/3.png" style="max-height: 120px">
+        </div>
+        <div class="grid-item">
+            <h3>Watch</h3>
+            <p3>You've never seen a watch like<br>this.</p3>
+            <p href="#" class="linkC">Learn more > Buy ></p>
+            <img src="images/4.png" style="max-height: 160px">
+        </div>
+    </div>
 
 </body>
 </html>
