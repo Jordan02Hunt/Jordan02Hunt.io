@@ -14,40 +14,40 @@ body {
     }
 }
 
-.linkA {
+.link1 {
 color:rgb(3, 106, 184);
 font-size: small;
 text-decoration: none;
 margin-bottom: auto;
 }
-.linkA:active{
+.link1:active{
     color: lightblue;
 }
-.linkA:hover{
+.link1:hover{
     text-decoration: underline;
 }
 
-.linkB {
+.link2 {
 color:rgb(3, 106, 184);
 text-decoration: none;
 margin-bottom: auto;
 }
-.linkB:active{
-    color: lightblue;
+.link2:active{
+    color: rgb(3, 106, 184);
 }
-.linkB:hover{
+.link2:hover{
     text-decoration: underline;
 }
-.linkC {
+.link3 {
 color: rgb(3, 106, 184);
 font-size: small;
 text-decoration: none;
 margin-bottom: 10px;
 }
-.linkC:active{
-    color: lightblue;
+.link3:active{
+    color: rgb(3, 106, 184);
 }
-.linkC:hover{
+.link3:hover{
     text-decoration: underline;
 }
 
@@ -66,8 +66,35 @@ p3{
     font-weight:550;
     margin-bottom: auto;
 }
+.AppleTop {
+    height: 420px;
+    background-color: rgb(255,255,255);
+    color: 000;
+    text-align: center;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+.AppleTop img{
+    max-width:380px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin:5px
+}
+.AppleTop h1 {
+    margin-bottom: 20px;
+    justify-content: center;
+}
 
-
+.Iphone11 {
+    height: 491px;
+    background-color: #000;
+    color: rgb(255,255,255);
+    align-content: center;
+    justify-content: center;
+    overflow:hidden;
+}   
+ 
 nav {
     background-color: #333;
     text-align: center;
@@ -95,46 +122,21 @@ nav a:active {
     max-height: 36px;
 }
 
-.AppleTop {
-    height: 420px;
-    background-color: rgb(255,255,255);
-    color: 000;
-    text-align: center;
-    padding: 25px 20px;
-    margin-bottom: 20px;
-}
-.AppleTop img{
-    max-width:380px;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    margin:5px
-}
-.AppleTop h1 {
-    margin-bottom: 20px;
-    justify-content: center;
-}
-.Iphone11 {
-    height: 491px;
-    background-color: #000;
-    color: rgb(255,255,255);
-    align-content: center;
-    justify-content: center;
-    overflow:hidden;
-}    
 
-.Boxes {
+
+
+.grid-Boxes {
     display: grid;
     grid-template-columns: repeat(2, 60%);
     grid-template-rows: repeat(2, 330px);
-    gap: 8px 16px;
+    gap: 10px 10px;
     max-width: 80%;
     margin-left: 14px;
     margin-right: 14px;
 }
 
-.Box1 {
-    background-color: rgb(255,248,248);
+.grid-box {
+    background-color: rgb(241, 238, 241);
     padding: 10px 5px;
     text-align: center;
     text-wrap:nowrap;
